@@ -11,7 +11,8 @@ class CharacterPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Personagens"),
+        title: Text("Game of Thrones API",
+        style: TextStyle(fontFamily: 'Got'),),
       ),
       body: Column(
         children: [
