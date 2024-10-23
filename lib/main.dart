@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_api/views/pages/character_page.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
 import 'bloc/character_bloc/character_bloc.dart';
 import 'bloc/character_bloc/character_event.dart';
 import 'data/services/character_service.dart';
